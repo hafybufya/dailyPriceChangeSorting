@@ -2,6 +2,9 @@
 
 This repository contains a python program that create a plots based on how long it takes numpy sort to sort daily price change.
 
+Data downloaded on:
+
+Source: 
 ## 📁 Project Structure
 
 ```
