@@ -76,14 +76,14 @@ for n in range (7,366):
     sizes.append(n)
     times.append(end - start)
 
-#plot of results
+# Plot of results
 n_values_arr = np.array(sizes)
 nlogn = n_values_arr * np.log(n_values_arr)
 
-#normalise nlogn to match scale of data
+# Normalise nlogn to match scale of data
 nlogn_scaled = nlogn / nlogn.max() * max(times)
 
-#plot of results
+# Plot of results
 
 plt.figure(figsize=(8, 5))
 plt.plot(sizes, times, linestyle='-', color=colour_1 )
