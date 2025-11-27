@@ -76,7 +76,7 @@ def plot_graph(numpy_array):
         sizes.append(n)
         times.append(end - start)
 
-    # Plot of results
+    # Computing nlogn
     n_values_arr = np.array(sizes)
     nlogn = n_values_arr * np.log(n_values_arr)
 
@@ -94,7 +94,16 @@ def plot_graph(numpy_array):
     plt.grid(True)
     plt.show()
 
+    return np.sort(numpy_array), nlogn
+
+
+# Pure function to calculate nlogn -> struggling with main one
+def compute_nlogn(n_values): 
+    n_values = np.array(n_values)
+    return n_values * np.log(n_values)
+
 
 if __name__ == "__main__":
+   
     add_daily_price_change(price_change_column)
-    plot_graph(daily_change_array)
+
