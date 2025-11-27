@@ -36,3 +36,12 @@ You can install required packages with:
 pip install time pandas matplotlib numpy
 
 ```
+
+## 📊 Dataset
+[MX Nordic 40 (OMXN40) Historical Data]https://www.nasdaq.com/market-activity/index/omxn40/historical?page=25&rows_per_page=10&timeline=y1
+* Data downloaded from the past year on 20/10/2025
+
+
+## 📄 License
+This project is open source and available under the MIT License.
+
