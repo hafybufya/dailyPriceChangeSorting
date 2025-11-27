@@ -1,0 +1,6 @@
+pytest
+time
+pandas
+matplotlib
+numpy
+
