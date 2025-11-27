@@ -1,6 +1,6 @@
 # Daily price Change sorting activity
 
-This repository contains a python program that plots a based on how long it takes to sort something based on numpy sort.
+This repository contains a python program that create a plots based on how long it takes numpy sort to sort daily price change.
 
 ## 📁 Project Structure
 
@@ -22,10 +22,10 @@ Python 3.10 or newer to run python files
 
 Python modules required:
 
-* time –
+* time – Time how long it takes numpy sort
 * pandas – Reading and handling CSV files.
 * matplotlib – Plotting graphs.
-* numpy – 
+* numpy – Preforming numpy sort
 
 You can install required packages with:
 
