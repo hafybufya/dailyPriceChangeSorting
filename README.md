@@ -30,16 +30,17 @@ Python 3.10 or newer to run python files
 
 Python modules required:
 
-* time – Time how long it takes numpy sort
-* pandas – Reading and handling CSV files.
-* matplotlib – Plotting graphs.
-* numpy – Preforming numpy sort
+* time – time how long it takes numpy sort.
+* pandas – reading and handling CSV files.
+* matplotlib – plotting graphs.
+* numpy – preforming numpy sort
 * os - checking if files exist.
+* pytest - preforming unittests.
 
 You can install required packages with:
 
 ```
-pip install time pandas matplotlib numpy os
+pip install time pandas matplotlib numpy os pytest
 
 ```
 
