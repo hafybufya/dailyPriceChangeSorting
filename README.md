@@ -20,7 +20,7 @@ This repository contains a python program that create a plots based on how long 
 ## 📊 Dataset
 
 The dataset used was obtained from Nasdaq:
-1. [\[MX Nordic 40 (OMXN40) Historical Data\]](https://www.nasdaq.com/market-activity/index/omxn40/historical?page=25&rows_per_page=10&timeline=y1)
+1. [MX Nordic 40 (OMXN40) Historical Data\](https://www.nasdaq.com/market-activity/index/omxn40/historical?page=25&rows_per_page=10&timeline=y1)
     * Data downloaded for the year 2025 on 20/10/2025
 
 
