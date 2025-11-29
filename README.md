@@ -10,6 +10,7 @@ This repository contains a python program that create a plots based on how long 
 ├── unitTest.py
 ├── requirements.txt
 ├── historicalData.csv
+├── LICENSE
 └── README.md
 └── .circle.ci/
     └── config.yml
